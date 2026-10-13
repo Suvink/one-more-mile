@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Twilio Serverless
+.twiliodeployinfo
+.twilio-functions
+.serverless/
+
+# web build staged by setup.mjs
+/assets/
+dist/
+*.tsbuildinfo
+
+.claude/settings.local.json
+.DS_Store
